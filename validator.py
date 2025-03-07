@@ -57,5 +57,5 @@ def checkProxy(proxy: Tuple[str, str]) -> bool:
 def log(level, message):
     level = level.upper()
     print(
-        f'{datetime.now().strftime("%d/%m/%Y %H:%M:%S")} - [swiftshadow] - {level} : {message}'
+        f'{datetime.now().strftime("%d/%m/%Y %H:%M:%S")} - [fadhli_proxy] - {level} : {message}'
     )
